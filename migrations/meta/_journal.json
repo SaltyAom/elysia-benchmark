@@ -1,0 +1,12 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1680847949994,
+      "tag": "0000_glamorous_violations"
+    }
+  ]
+}

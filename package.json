@@ -1,0 +1,21 @@
+{
+    "name": "techempower",
+    "version": "1.0.28",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "bun run --hot src/index.ts",
+        "start": "ENV=production bun src/start.ts",
+        "migrate": "drizzle-kit generate:pg"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.23.8",
+        "elysia": "latest",
+        "pg": "^8.10.0"
+    },
+    "devDependencies": {
+        "@types/pg": "^8.6.6",
+        "bun-types": "latest",
+        "drizzle-kit": "^0.17.4"
+    },
+    "module": "src/index.js"
+}
